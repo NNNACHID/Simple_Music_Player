@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.container {   
+    width: 100%;
+    height: 100vh;
+    background: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.music__player{
+    background: #8934ce;
+    width: 24rem;
+    padding: 1.5rem 2.1rem;
+    text-align: center;
+}
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 2.1rem;
+}
+
+nav .circle{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background: #fff;
+    color: #5b0a9c;
+    box-shadow: 0 5px 10px rgba(65, 3, 65, 0.22);
+}
